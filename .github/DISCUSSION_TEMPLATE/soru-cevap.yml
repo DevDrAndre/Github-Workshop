@@ -1,0 +1,36 @@
+title: "Soru: [Konu Başlığı]"
+labels: ["soru"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 👋 Merhaba!
+        Bir soru sormak üzeresiniz. Lütfen problemi net bir şekilde açıklayın.
+  
+  - type: textarea
+    id: problem
+    attributes:
+      label: ❓ Sorununuz Nedir?
+      description: Karşılaştığınız hatayı veya anlamadığınız konuyu detaylıca anlatın.
+      placeholder: "Örn: git push yaparken 'permission denied' hatası alıyorum..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 👣 Tekrarlama Adımları
+      description: Bu hatayı almak için hangi adımları izlediniz?
+      placeholder: |
+        1. Terminali açtım
+        2. git commit yazdım
+        3. ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 💻 Hata Çıktısı / Loglar
+      description: Terminaldeki hata mesajını buraya yapıştırın.
+      render: shell

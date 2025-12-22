@@ -1,0 +1,31 @@
+title: "Tanışma: [İsminiz]"
+labels: ["tanışma"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🤝 Topluluğa Hoş Geldiniz!
+        Sizi tanımak isteriz.
+  
+  - type: input
+    id: name
+    attributes:
+      label: 👤 Adınız Soyadınız
+      placeholder: "Ad Soyad"
+    validations:
+      required: true
+
+  - type: textarea
+    id: about
+    attributes:
+      label: 📝 Kendinizden Bahsedin
+      description: Bölümünüz, ilgi alanlarınız, neden buradasınız?
+      placeholder: "Merhaba, ben Bilgisayar Mühendisliği 1. sınıf öğrencisiyim..."
+    validations:
+      required: true
+
+  - type: input
+    id: social
+    attributes:
+      label: 🌐 Sosyal Medya (LinkedIn/GitHub)
+      description: İsteğe bağlı

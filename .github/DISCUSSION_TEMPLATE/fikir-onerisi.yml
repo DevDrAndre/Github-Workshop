@@ -1,0 +1,23 @@
+title: "Öneri: [Fikir Başlığı]"
+labels: ["öneri"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 Bir Fikrim Var!
+        Workshop içeriğini veya işleyişini geliştirmek için bir öneriniz mi var?
+  
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 🚀 Öneriniz Nedir?
+      description: Fikrinizi detaylıca açıklayın.
+      placeholder: "Şu konuyu da müfredata eklesek güzel olur..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: ✨ Faydası Ne Olacak?
+      description: Bu öneri workshop'a ne katacak?

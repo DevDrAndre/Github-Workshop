@@ -1,0 +1,16 @@
+title: "Konu: [Başlık]"
+labels: ["genel"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💬 Genel Sohbet
+        Workshop ile ilgili genel konular, duyurular veya sohbet.
+  
+  - type: textarea
+    id: content
+    attributes:
+      label: 📢 Mesajınız
+      description: Paylaşmak istediğiniz konu nedir?
+    validations:
+      required: true
