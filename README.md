@@ -81,28 +81,26 @@ Bu workshop, **Git** ve **GitHub**'ı hiç bilmeyenlerden başlayarak, profesyon
 
 ---
 
-## � Yoklama
+## 📋 Yoklama
 
 > **Workshop'a katılım için aşağıdaki adımları takip edin!**
 
 ### 📝 Yoklama Nasıl Alınır?
 
 1. 🍴 Bu repoyu **fork** edin
-2. 📧 `ATTENDANCE.md` dosyasına öğrenci e-postanızı ekleyin
-3. 🔀 **Pull Request** açın
-4. ✅ GitHub Actions otomatik olarak e-posta formatınızı doğrulayacak
-5. 🎉 Doğrulama başarılı olursa PR merge edilecek
+2. 📁 `attendance/` klasörüne gidin
+3. 📄 Yeni bir dosya oluşturun: `ogrenci_no.txt` (örn: `210316011.txt`)
+4. 📝 Dosya içine **sadece** e-posta adresinizi yazın: `210316011@ogr.cbu.edu.tr`
+5. 🔀 **Pull Request** açın
 
-### ✉️ E-posta Formatı
+### ⚠️ Önemli Kurallar
 
-```
-ogrenci_no@ogr.cbu.edu.tr
-```
-
-**Örnek:** `210316011@ogr.cbu.edu.tr`
+- ✅ Sadece **kendi dosyanızı** oluşturun.
+- ❌ Başkasının dosyasını **silmeyin** veya **değiştirmeyin**.
+- 🤖 GitHub Actions otomatik olarak dosya isminizi ve formatınızı kontrol edecektir.
 
 > [!TIP]
-> [📋 Katılımcı Listesi](ATTENDANCE.md) dosyasına göz atarak kimlerin katıldığını görebilirsiniz!
+> [📁 Yoklama Klasörü](attendance/) içindeki dosyaları inceleyebilirsiniz.
 
 ---
 
